@@ -1,0 +1,190 @@
+ /* Cabeçalho */
+
+ @media (max-width: 480px) {
+ 	section header .logo {
+ 		margin-left: -40px;
+ 	}
+
+ 	section header .toggle {
+ 		right: -20px;
+ 	}
+
+ 	section header .logo {
+
+ 		width: 140px;
+ 	}
+ }
+
+ /* Animações  */
+
+ @media (max-width: 1600px) {
+ 	.wave {
+ 		left: 37px;
+ 		top: 157px;
+ 		width: 88%;
+ 		height: 17%;
+ 	}
+
+ }
+
+ @media (max-width: 1500px) {
+ 	.wave {
+ 		top: 149px;
+ 		width: 89%;
+ 		;
+ 	}
+ }
+
+ @media (max-width: 1192px) {
+ 	.wave {
+ 		top: 117px;
+ 		left: 12px;
+ 		width: 95%
+ 	}
+ }
+
+ @media (max-width: 1080px) {
+ 	.wave {
+ 		top: 74%;
+ 		left: 5px;
+ 		width: 98%
+ 	}
+
+ }
+
+ @media (max-width: 991px) {
+ 	.wave {
+ 		top: 76%;
+ 	}
+ }
+
+ @media (max-width: 600px) {
+ 	.wave {
+ 		top: 76%;
+ 		left: 9px;
+ 		width: 96%;
+ 	}
+ }
+
+ @media (max-width: 480px) {
+ 	.wave {
+ 		top: 76%;
+ 		left: 2px;
+ 		width: 99%;
+ 	}
+ }
+
+ /* Menu de navegação  */
+
+ @media (max-width: 480px) {
+ 	section .menu li .wave span {
+ 		top: 1180px;
+ 	}
+ }
+
+
+ @media (max-width: 600px) {
+ 	section .menu li .wave span {
+ 		top: 1170px;
+
+ 	}
+ }
+
+ @media (max-width: 1600px) {
+ 	section .menu li .wave span {
+ 		top: 1180px;
+
+ 	}
+ }
+
+ /* section */
+ @media (max-width: 1080px) {
+ 	section header .navigation.active {
+ 		right: 140px;
+ 	}
+ }
+
+ @media (max-width: 991px) {
+ 	header {
+ 		padding: 20px;
+ 	}
+
+ 	section header .navigation.active {
+ 		right: 135px;
+ 	}
+
+ 	section .sci {
+ 		bottom: 20px;
+ 		right: 20px;
+ 	}
+
+ 	section .glass {
+ 		width: 50%;
+ 	}
+
+ 	section .content h2 {
+ 		font-size: 18vw;
+ 	}
+
+ 	section .content h2 span {
+ 		font-size: 0.25em;
+ 		letter-spacing: 2px;
+ 		padding: 0 5px;
+ 	}
+
+ }
+
+ @media (max-width: 600px) {
+ 	section header .navigation.active {
+ 		right: 105px;
+
+ 	}
+
+ }
+
+ /* Servicos */
+
+ @media (max-width: 480px) {
+
+ 	.servicos .card .card-content {
+ 		width: auto;
+ 		text-align: justify;
+ 	}
+
+ 	.fa-map,
+ 	.fa-camera,
+ 	.fa-location-arrow {
+ 		font-size: 30px;
+ 	}
+
+ 	.servicos .card {
+ 		display: flex;
+ 		align-items: center;
+ 		justify-content: center;
+ 		margin: -23px;
+ 		text-align: justify;
+ 	}
+
+ 	button {
+ 		margin-top: 170px;
+ 		padding: 10px;
+ 	}
+
+ 	.servicos .card p,
+ 	.servicos .card h3 {
+ 		text-align: center;
+ 		font-size: 12px;
+ 	}
+ }
+
+ @media (orientation: landscape) {
+
+ 	footer {
+ 		margin-top: 400px;
+ 	}
+
+ 	h2 {
+ 		font-size: 30px;
+ 	}
+
+ }

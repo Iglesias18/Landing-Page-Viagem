@@ -102,7 +102,9 @@
  	section header .navigation.active {
  		right: 140px;
  	}
+
  }
+
 
  @media (max-width: 991px) {
  	header {
@@ -177,14 +179,23 @@
  	}
  }
 
- @media (orientation: landscape) {
+ @media (orientation: landscape) and (max-height:700px) {
 
  	footer {
- 		margin-top: 400px;
+ 		margin-top: 300px;
  	}
 
  	h2 {
  		font-size: 30px;
+ 	}
+
+ }
+
+ @media (orientation: landscape) and (max-height:500px) {
+
+ 	footer {
+ 		margin-top: 500px;
+
  	}
 
  }
